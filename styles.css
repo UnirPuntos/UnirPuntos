@@ -1,0 +1,565 @@
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header nav ul li a {
+    color: black;
+}
+
+header {
+    display: flex;
+    height: 7rem;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+header nav ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    color: black;
+    padding-right: 3rem;
+    font-size: 1.5rem;
+}
+
+.logo {
+    border-radius: 10rem;
+    padding-left: 5rem;
+    height: 10rem;
+    width: 10rem;
+}
+
+/* tipologia de letras */
+.varela-regular {
+    font-family: "Varela", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/*tipos de letras*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: white;
+}
+
+
+
+/* BIENVENIDA */
+
+.bienvenida div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15rem;
+}
+
+.bienvenida h1 {
+    color: rgb(18, 134, 155);
+    font-family: "Abril Fatface", serif;
+    font-style: normal;
+    font-size: 4rem;
+    margin-top: 0.5rem;
+
+}
+
+
+.bienvenida img {
+    width: 28rem;
+    height: 28rem;
+}
+
+
+
+
+
+
+
+/* BIENVENIDA */
+
+
+
+/* ACERCA DE NOSOTROS */
+
+.contenedor1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto {
+    font-size: 1.6rem;
+    text-align: justify;
+    color: #888888;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 45rem;
+
+}
+
+.texto h2 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(18, 134, 155);
+
+}
+
+.chat i {
+    color: green;
+    font-size: 3rem;
+    position: fixed;
+    bottom: 5rem;
+    left: 98rem;
+    padding: 0.5rem;
+
+}
+
+.seccion1 img {
+    margin-left: 2rem;
+
+}
+
+.titulodeservicios h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(18, 134, 155);
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+/* SERVICIOS OFRECIDOS */
+.servicios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+
+    font-size: 1rem;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    gap: 5rem;
+
+
+}
+
+.servicios div h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(18, 134, 155);
+
+}
+
+.conpuntos {
+    list-style: disc;
+    margin-left: 2rem;
+    text-align: left;
+}
+
+.servicios div {
+    background-color: #d7d6d8;
+    /* Fondo suave */
+    padding: 2rem;
+    border-radius: 12px;
+    /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+    transition: transform 0.3s ease;
+    /* Efecto al pasar el mouse */
+}
+
+
+
+.agendaya {
+    background-color: white;
+    /* Color de fondo */
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.6rem;
+    color: black;
+    /* Color del texto */
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.agendaya {
+
+    max-width: 80rem;
+    /* Ancho máximo del párrafo */
+    margin: 0 auto;
+    /* Centra el párrafo */
+    line-height: 1.5;
+    /* Espacio entre líneas */
+}
+
+.botonagendacita {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 4rem;
+
+}
+
+#imagenmapa div{
+       display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.imgcentrada{
+    width: 50rem;
+    height: auto;
+    margin-top: 4rem;
+}
+
+/*estilos de forter pie de pagina */
+
+.footer {
+    background-color: #F0E6D6;
+    font-size: 1.5rem;
+    display: flex;
+    padding: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.284rem;
+
+
+
+}
+
+
+
+.footer i {
+    text-decoration: none;
+    color: rgb(240, 0, 0);
+    font-size: 2.25rem;
+    padding-inline: 1rem;
+
+}
+
+
+.facebook i {
+    text-decoration: none;
+    color: rgb(24, 119, 242);
+    font-size: 2.25rem;
+}
+
+.instagram i {
+    text-decoration: none;
+    color: #F86F2F;
+    font-size: 2.25rem;
+}
+
+.redes {
+    display: flex;
+}
+
+#check {
+    display: none;
+}
+
+.checkbtn {
+    font-size: 25px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 48px;
+    cursor: pointer;
+    display: none;
+}
+
+
+/* DISEÑO RESPONSIVE Estilos para pantallas grandes (por ejemplo, de escritorio)  */
+
+
+@media (min-width: 1024px) {
+    .contenedor {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .columna {
+        flex: 0.5;
+    }
+
+}
+
+/* Estilos para pantallas medianas (por ejemplo, tablets) */
+@media (max-width: 1023px) and (min-width: 769px) {
+
+    .checkbtn {
+        display: block;
+        font-size: 2rem;
+        color: black;
+        cursor: pointer;
+        /* Oculto por defecto */
+        float: right;
+        line-height: 80px;
+    }
+
+    /* Ocultar el menú en pantallas pequeñas */
+    .barraprincipal ul {
+        display: none;
+        flex-direction: column;
+        background-color: rgb(18, 134, 155);
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        /* Ajusta según el tamaño de tu header */
+        left: 0;
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    /* Mostrar el menú cuando se selecciona el checkbox */
+    #check:checked~.menu {
+        display: flex;
+    }
+
+    .logo {
+        border-radius: 10rem;
+        padding-left: 5rem;
+        height: 10rem;
+        width: 10rem;
+    }
+
+
+    #seccionprincipal div img {
+        width: 15rem;
+        height: auto;
+    }
+
+    .bienvenida div {
+        margin-left: 0px;
+    }
+
+
+
+    .bienvenida h1 {
+        font-size: 2.5rem;
+        margin-top: 0.5rem;
+
+    }
+
+    .contenedor1 .texto {
+        font-size: 1.2rem;
+    }
+
+    .texto h2 {
+        font-size: 2rem;
+    }
+
+    .chat i {
+        bottom: 3rem;
+        left: 52rem;
+    }
+
+    .titulodeservicios h1 {
+        font-size: 2rem;
+    }
+
+    .servicios {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        gap: 2rem;
+
+
+    }
+
+
+}
+
+/* Estilos para pantallas pequeñas (por ejemplo, móviles) */
+@media (max-width: 768px) {
+
+    * {
+        margin-left: 0.38rem;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 12rem;
+        font-size: 1.5rem;
+
+    }
+
+    .checkbtn {
+        display: block;
+        font-size: 2rem;
+        color: black;
+        cursor: pointer;
+        /* Oculto por defecto */
+        float: right;
+        line-height: 80px;
+    }
+
+    /* Ocultar el menú en pantallas pequeñas */
+    .barraprincipal ul {
+        display: none;
+        flex-direction: column;
+        background-color: rgb(18, 134, 155);
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        /* Ajusta según el tamaño de tu header */
+        left: 0;
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    /* Mostrar el menú cuando se selecciona el checkbox */
+    #check:checked~.menu {
+        display: flex;
+    }
+
+
+    .logo {
+        border-radius: 10rem;
+        padding-left: 2rem;
+        height: 8rem;
+        width: 8rem;
+    }
+
+
+    #seccionprincipal div img {
+        width: 15rem;
+        height: auto;
+    }
+
+    .bienvenida div {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .bienvenida h1 {
+        font-size: 2.5rem;
+        margin-top: 0.5rem;
+
+
+    }
+
+    .contenedor1 .texto {
+        font-size: 1rem;
+    }
+
+    .texto h2 {
+        font-size: 2rem;
+        display: flex;
+        align-content: center;
+
+    }
+
+    .chat i {
+        bottom: 0.5rem;
+        left: 35rem;
+        font-size: 2.5rem;
+    }
+
+    .titulodeservicios h1 {
+        font-size: 2rem;
+    }
+
+    .servicios {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        gap: 2rem;
+
+
+
+    }
+
+}
+
+    /* DISEÑO RESPONSIVE */
+
+    /* paleta de colores segun chat gpt 
+
+Paleta de Colores Recomendada
+Azul Suave (#8ABAD3):
+El azul es un color que inspira confianza y tranquilidad. Un tono suave ayuda a transmitir calma y profesionalismo, siendo ideal para el contexto de salud mental.
+
+Blanco (#FFFFFF):
+El blanco siempre es un excelente fondo para crear una sensación de pureza, claridad y transparencia, lo que es fundamental para una empresa dedicada a la psicología.
+
+Gris Claro (#D3D3D3):
+Utilizado para textos y elementos secundarios, el gris es neutral y moderno, creando un contraste suave con los colores principales sin ser demasiado dominante.
+
+Verde Menta (#A7D4A6):
+El verde está relacionado con la salud, la esperanza y la armonía. Un verde menta suave añade una sensación de frescura y bienestar, manteniendo el equilibrio en la paleta.
+
+Beige Arena (#F0E6D6):
+Un tono cálido como el beige aporta cercanía y acogimiento, complementando los colores fríos como el azul y el verde. Es ideal para resaltar elementos y generar una sensación de bienestar.
+
+Amarillo Mostaza Suave (#E1B465):
+Este tono aporta un toque de energía y optimismo sin ser demasiado brillante o disruptivo, ideal para pequeños detalles o acentos en la web.
+
+Combinaciones y Uso
+Fondo principal: Blanco o beige arena, para mantener la claridad y legibilidad.
+Textos: Gris claro para los secundarios, y negro o gris oscuro para los principales.
+Botones y enlaces llamativos: Verde menta o amarillo mostaza suave, para incentivar la acción (como "Agendar una cita").
+Detalles visuales: Azul suave como color de fondo para secciones específicas o para resaltar mensajes importantes.
+*/

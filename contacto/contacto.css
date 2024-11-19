@@ -1,0 +1,155 @@
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header nav ul li a {
+    color: black;
+}
+
+header {
+    display: flex;
+    height: 7rem;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+header nav ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    color: black;
+    padding-right: 3rem;
+    font-size: 1.5rem;
+}
+
+.logo {
+    border-radius: 10rem;
+    padding-left: 5rem;
+    height: 10rem;
+    width: 10rem;
+}
+
+.titulo_seccion {
+    position: relative;
+    font-size: 40px;
+    color: #003750;
+    text-align: center;
+  }
+  .container {
+    max-width: 16.5rem; /* Define el ancho máximo del contenedor */
+    margin: 2rem auto; /* Centra el contenedor horizontalmente */
+    padding: 1rem; /* Agrega un poco de espacio alrededor del formulario */
+    border: 0.5rem solid rgb(18, 134, 155); /* Agrega un borde al contenedor */
+    border-radius: 1rem; /* Agrega bordes redondeados al contenedor */
+
+  }
+  .form-group {
+    margin-bottom: 15px; /* Espacio entre cada input */
+  }
+  label {
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 15rem; /* Define el ancho máximo del input */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  textarea {
+    resize: vertical; /* Permite redimensionar verticalmente el textarea */
+  }
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(18, 134, 155);
+    border-radius: 0.5rem;
+    width: 5rem;
+    height: 3rem;
+    cursor: pointer;
+    margin-left: 5.5rem;
+    /* Coloca estilos a tu botón */
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+
+.botonagendacita{
+  display: flex;
+  text-decoration: none;
+  color: blue;
+  font-size: 10rem;
+}
+
+
+
+.footer {
+    background-color: #F0E6D6;
+    font-size: 1.5rem;
+    display: flex;
+    padding: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.284rem;
+
+
+
+}
+
+
+.botonfrase{
+  display: flex;
+  justify-content:space-between;
+  font-size: 2rem;
+  align-items:center;
+  flex-direction: column;
+  margin-top: 10rem;
+
+}
+
+#btn-generar{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+background-color: rgb(18, 134, 155) ;
+  font-size: 2rem;
+  margin-right: 5rem;
+}
+
+.footer i {
+    text-decoration: none;
+    color: rgb(240, 0, 0);
+    font-size: 2.25rem;
+    padding-inline: 1rem;
+
+}
+
+
+.facebook i {
+    text-decoration: none;
+    color: rgb(24, 119, 242);
+    font-size: 2.25rem;
+}
+
+.instagram i {
+    text-decoration: none;
+    color: #F86F2F;
+    font-size: 2.25rem;
+}
+
+.redes {
+    display: flex;
+}
