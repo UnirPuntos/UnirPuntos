@@ -83,3 +83,10 @@ header nav ul {
 .redes {
     display: flex;
 }
+
+footer{
+    display: grid;
+    min-height: 2dvh;
+    grid-template-rows: auto 1fr auto;
+    overflow: auto;
+}
